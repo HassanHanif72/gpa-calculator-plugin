@@ -95,7 +95,7 @@ function advanced_gpa_calculator_shortcode() {
 </div>
 
 <!-- Calculator Script -->
-<script src="<?php echo plugins_url('assets/calculator.js', __FILE__); ?>"></script>
+<script src="<?php echo esc_url( plugins_url( 'assets/calculator.js', __FILE__ ) ); ?>"></script>
 <!-- end -->
 
 <?php
