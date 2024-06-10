@@ -15,8 +15,8 @@ function advanced_gpa_calculator_shortcode() {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
 <!-- end -->
 <!-- Calculator Style -->
-<link rel="stylesheet" href="<?php echo plugins_url('assets/calculator.css', __FILE__); ?>">
-<link rel="stylesheet" href="<?php echo plugins_url('assets/responsive.css', __FILE__); ?>">
+<link rel="stylesheet" href="<?php echo esc_url( plugins_url( 'assets/calculator.css', __FILE__ ) ); ?>">
+<link rel="stylesheet" href="<?php echo esc_url( plugins_url( 'assets/responsive.css', __FILE__ ) ); ?>">
 <!-- end -->
 
 <div id="gpa-calculator-container">
