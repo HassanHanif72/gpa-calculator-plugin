@@ -1,0 +1,139 @@
+.grade-calculator {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#gpa-calculator-form {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#gpa-result {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.course-container,
+.semester-container {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+.course-container label,
+.semester-container label {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.remove-course,
+.remove-semester {
+  cursor: pointer;
+  color: red;
+  font-size: 30px;
+  position: relative;
+  top: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 15px 12px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus,
+input:focus,
+select:focus {
+  border: 1px solid #ffd117;
+}
+
+.add-course,
+.add-semester {
+  border: 2px solid #ffd117;
+  padding: 8px 20px;
+  display: inline-block;
+  font-weight: 500;
+  background: #ffd117;
+  color: #000000;
+  transition: all ease-in-out 0.3s;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+
+.add-course:hover,
+.add-semester:hover {
+  background-color: #ffd117;
+  background: transparent;
+  color: #ffd117;
+}
+
+#gpa-result h2 {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+#gpa-result h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+#cumulative-gpa {
+  color: #ffd117;
+  font-size: 25px;
+  font-weight: 500;
+}
+.text-color {
+  color: #ffd117;
+}
+#semester-gpas > div {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 12px;
+}
+#gpa-result label {
+  width: 49.33%;
+  background: none;
+  color: #ccc;
+  border-bottom: 1px solid !important;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+#semester-gpas span {
+  font-size: 25px;
+  font-weight: 500;
+}
+.semester-title {
+  background: #f4f4f4 !important;
+  outline: none !important;
+  padding: 15px 12px !important;
+  /* max-width: 174px; */
+  border: none !important;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  color: #ffd117 !important;
+}

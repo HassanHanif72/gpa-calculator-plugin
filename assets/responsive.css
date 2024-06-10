@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .remove-course,
+  .remove-semester {
+    top: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
